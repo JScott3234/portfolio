@@ -1,7 +1,7 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /*background-color: black;*/
-  background-image:url(/IntroToHCJ/Portfolio/custom_images/vWave.jpg);
+  background-image:url(./custom_images/vWave.jpg);
   background-attachment:fixed;
 }
 
@@ -33,6 +33,7 @@ body {
 }
 
 .topdiv {
+  background-color:#4c388b;
   float: right;
   margin-right: 2cm;
   padding-top: 0.25cm;
@@ -64,6 +65,10 @@ body {
 }
 
 /* Titles */
+
+h1 {
+  margin-top:10px;
+}
 
 h2 {
   text-align: justify;
@@ -123,6 +128,7 @@ h2 {
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  margin-top:20px;
   padding: 10px;
 }
 
